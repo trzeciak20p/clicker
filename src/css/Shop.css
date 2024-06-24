@@ -1,0 +1,52 @@
+@import "colors.css";
+
+.shop{
+  background-color: var(--bg-primary);
+  color: aliceblue;
+  height: 100%;
+}
+.shop h2, .shop h3{
+  padding: 5px;
+  margin-bottom: 0px;
+  text-align: center;
+  background-color: var(--bg-secondary);
+  color: rgb(255, 208, 135);
+}
+.shop ul{
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+.shop nav a{
+  text-decoration: none;
+  color: wheat;
+}
+.shop nav input{
+  border-radius: 0px;
+}
+
+.shop .item{
+  width: 100%;
+  text-align: left;
+  padding-left: 10px;
+  border-radius: 0px;
+}
+
+.shop .item .name{
+  color: var(--text-secondary);
+  font-weight: bold;
+  font-size: 20px;
+}
+.shop .item .owned{
+  color: #ffffff88;
+  font-size: 10px;
+}
+.shop .item .price{
+  float: right;
+  font-size: 15px;
+  vertical-align: baseline;
+}
+.shop .itemInfoBox{
+  padding-left: 10px;
+  background-color: #121416;
+}

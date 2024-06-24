@@ -1,0 +1,45 @@
+@import "colors.css";
+
+.info{
+  height: 100%;
+}
+.info nav a{
+  text-decoration: none;
+  color: wheat;
+}
+.info nav input, .info input{
+  border-radius: 0px;
+}
+.info nav ul{
+  margin: 0px;
+}
+.info ul{
+  list-style-type: none;
+}
+.info form input, .info form textarea{
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  width: auto;
+  height: auto;
+}
+.feedback{
+  height: 100%;
+}
+.feedback .feedback-see{
+  height: 65%;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.feedback ul{
+  padding: 3px 0px 0px 5px;
+}
+.feedback ul li{
+  margin-top: 3px;
+}
+.feedback ul li span{
+  font-size: 18px;
+  color: var(--text-secondary);
+}
+.feedback ul li:nth-child(2n){
+  background-color: var(--bg-secondary);
+}

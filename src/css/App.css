@@ -1,0 +1,75 @@
+@import "colors.css";
+
+#root {
+  margin: 0 ;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+/* scrollbar */
+/* ::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background:  #212121;
+}
+::-webkit-scrollbar-thumb {
+  background: wheat;
+}
+::-webkit-scrollbar-thumb:hover {
+  background:  wheat;
+} */
+
+
+header{
+  background-color: #b7b2aa;
+  background-image: url("../assets/img/clicker+1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+  overflow-y: hidden;
+  background-color: var(--bg-primary);
+}
+
+body h2, body h3, body  h4{
+  padding: 5px;
+  margin-bottom: 0px;
+  text-align: center;
+  background-color: var(--bg-secondary);
+  color: var(--text-secondary);
+}
+
+main{
+  height: 100%;
+  background-color: var(--bg-secondary);
+}
+
+.separator{
+  height: 100%;
+  width: 10px;
+  background-color: black;
+}
+
+#clickBtn{
+  margin: 0px auto 0px auto;
+  width: 80%;
+  height: 75%;
+  /* aspect-ratio: 1.8; */
+}
+.counter{
+  color: var(--text-primary);
+  font-size: 18px;
+  font-weight: bold;
+}
+.counter span{
+  color: var(--text-secondary);
+}
+

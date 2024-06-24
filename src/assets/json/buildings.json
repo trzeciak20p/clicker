@@ -1,0 +1,26 @@
+[
+  {
+    "name" : "moni maker",
+    "price" : 15,
+    "prod" : 0.1,
+    "desc" : "Makes moni!"
+  },
+  {
+    "name" : "moni maker v2",
+    "price" : 100,
+    "prod" : 1,
+    "desc" : "Makes moni but better!"
+  },
+  {
+    "name" : "moni monier",
+    "price" : 1000,
+    "prod" : 8,
+    "desc" : "asdasdasdasdasd"
+  },
+  {
+    "name" : "moni maker v3",
+    "price" : 12000,
+    "prod" : 47,
+    "desc" : "You guessed it!"
+  }
+]
